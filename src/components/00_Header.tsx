@@ -5,7 +5,7 @@ import Image from "next/image";
 
 function Header() {
   return (
-    <header className=" container border-b-4  border-green-800 ">
+    <header className=" container  ">
       <nav className="p-[10px]  rounded-[4px] ">
         <Link href="/" className="flexCenter   mb-[10px]">
           <Image

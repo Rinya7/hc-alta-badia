@@ -10,7 +10,12 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --background-image-hero: url('/images/hero.jpg');
 }
+
+@theme {
+    /*--background-image-hero: url('/images/hero.jpg');*/
+  }
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -56,5 +61,12 @@ body {
     .container {
       padding-left: 60px;
       padding-right: 60px;
+    }
+  }
+
+
+  @layer utilities {
+    .flexCenter {
+      @apply flex items-center justify-center;
     }
   }
