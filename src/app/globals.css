@@ -10,7 +10,8 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --background-image-hero: url('/images/hero.jpg');
+  --background-image-hero: url('/img/hero.jpg');
+  --background-image-hockey-bg: url('/img/hockey-bg.jpg');
 }
 
 @theme {

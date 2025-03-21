@@ -7,7 +7,7 @@ function Header() {
   return (
     <header className=" container  ">
       <nav className="p-[10px]  rounded-[4px] ">
-        <Link href="/" className="flexCenter   mb-[10px]">
+        <Link href="/" className="    mb-[10px]">
           <Image
             src="/logo.png"
             alt="Логотип"
