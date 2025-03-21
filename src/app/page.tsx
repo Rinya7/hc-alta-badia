@@ -1,6 +1,7 @@
 // src/app/page.tsx
 import Hero from "@/components/01_Hero";
 import About from "@/components/02_About";
+import Section from "@/components/03_Section";
  
 
 export default function Home() {
@@ -8,11 +9,8 @@ export default function Home() {
     <>
      <Hero />
      <About />
-
-       
-      
-
-     </>  
+     <Section />
+  </>  
       
        
   );

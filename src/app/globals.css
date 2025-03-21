@@ -42,7 +42,7 @@ body {
   }
   
   /* Для планшетов */
-  @media (min-width: 640px) {
+  @media (min-width: 768px) {
     .container {
       padding-left: 32px;
       padding-right: 32px;
