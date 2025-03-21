@@ -12,10 +12,16 @@
   --font-mono: var(--font-geist-mono);
   --background-image-hero: url('/img/hero.jpg');
   --background-image-hockey-bg: url('/img/hockey-bg.jpg');
+   
 }
 
 @theme {
     /*--background-image-hero: url('/images/hero.jpg');*/
+     
+  }
+
+  .flexCenter {
+    @apply flex items-center justify-center;
   }
 
 @media (prefers-color-scheme: dark) {
@@ -32,13 +38,19 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
+@utility container {
     width: 100%;
     max-width: 1280px;
     padding-left: 16px;
     padding-right: 16px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  @utility flexCenter {
+    display:flex;
+    align-item:center;
+    justify-content: center;
   }
   
   /* Для планшетов */
@@ -66,8 +78,4 @@ body {
   }
 
 
-  @layer utilities {
-    .flexCenter {
-      @apply flex items-center justify-center;
-    }
-  }
+  

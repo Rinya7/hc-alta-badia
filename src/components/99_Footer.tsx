@@ -13,8 +13,8 @@ function Footer() {
     });
   };
   return (
-    <footer className="container h-60 bg-dark-100 text-white py-[16px]">
-      <nav className="p-[10px]  rounded-[4px] ">
+    <footer className="container    bg-dark-100 text-white py-[16px]">
+      <nav className="p-[10px]  rounded-[4px] flexCenter">
         <Link href="/" className="    mb-[10px]" onClick={smoothScrollToTop}>
           <Image
             src="/logo.png"

@@ -18,7 +18,7 @@ const slides = [
 
 export default function Carousel() {
   return (
-    <div className="w-full  mx-auto py-10">
+    <div className="w-full  mx-auto ">
       <Swiper
         effect="coverflow"
         grabCursor={true}
@@ -43,19 +43,17 @@ export default function Carousel() {
         className="swiper-container"
       >
         {slides.map((image, index) => (
-          <SwiperSlide key={index} className="   ">
-            <div className="relative   rounded-lg shadow-lg  ">
+          <SwiperSlide key={index} className="rounded-full   ">
+            <div className="relative  rounded-full   shadow-lg  ">
               <Image
                 src={image}
                 alt={`Hockey moment ${index + 1}`}
                 width={1600}
                 height={1200}
                 
-                className="w-auto h-auto   "
+                className="w-auto h-auto  border-2  rounded-full  "
               />
-              <div className="absolute bottom-0 left-0 right-0 bg-black/60 text-white p-4">
-                <h3 className="text-lg font-semibold">foto {index + 1}</h3>
-              </div>
+              
             </div>
           </SwiperSlide>
         ))}
