@@ -1,5 +1,4 @@
-import Carousel from "./common/Carousel"
-//import Carousel_test from "./common/Carousel_test"
+ 
 
  
 
@@ -21,9 +20,7 @@ function About() {
 </p>
 </div>
 
-        {/* ПРАВИЙ БЛОК — СЛАЙДЕР */}
-        {/*<Carousel />*/}
-        {/*<Carousel_test />*/}
+        
           
       </div>
     </section>
